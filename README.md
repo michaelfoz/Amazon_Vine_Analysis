@@ -45,7 +45,7 @@ config = {"user":"postgres",
 
 ![image](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL%20-%2018-minute-execution-time.png)
 
-(Self-note: a very lengthy process--total of 18 minutes for just this one table-.)
+(Self-note: a very lengthy process--total of 18 minutes for just this one table.)
 
 ### Below are screenshots of queries performed in pgAdmin to confirm that the data was imported to the earlier-created tables: 'customer table', 'products_table', 'review_id_table', and 'vine_table'.
 
