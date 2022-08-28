@@ -64,10 +64,12 @@ Analysis performed in [Vine_Review_Analysis.ipynb](https://github.com/michaelfoz
 
 - How many Vine reviews and non-Vine reviews were there?
 
-As seen in [Vine_Review_Analysis.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) (at the bottom-most section of the file), there is a total number of 22 Vine reviews and a total number of 26,987 non-Vine reviews.
+As seen in [Vine_Review_Analysis.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) (at the bottom-most section of the file), there is a total number of 22 Vine reviews. In contrast, there is a total number of 26,987 non-Vine reviews.
 
 - How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-As
 
+As seen in [Vine_Review_Analysis.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) (at the bottom-most section of the file), there is a total number of 13 5-star reviews made by paid Vine members. In contrast, there is a total number of 14,475 5-star reviews made by unpaid non-Vine members.
 
 - What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+
+As seen in [Vine_Review_Analysis.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) (at the bottom-most section of the file), the percentage of five-star reviews among Vine reviews is 59.1%. In contrast, the percentage of five-star reviews among non-Vine reviews is 53.6%. 
