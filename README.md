@@ -60,4 +60,7 @@ config = {"user":"postgres",
 # Deliverable 2: Determine Bias of Vine Reviews 
 See [Vine_Review_Analysis.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)
 
-# Deliverable 3: Written Report 
+# Deliverable 3: Written Report
+-How many Vine reviews and non-Vine reviews were there?
+-How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
