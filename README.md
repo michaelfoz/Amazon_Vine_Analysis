@@ -59,4 +59,5 @@ config = {"user":"postgres",
 
 # Deliverable 2: Determine Bias of Vine Reviews 
 See [Vine_Review_Analysis.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)
-# Deliverable 3
+
+# Deliverable 3: Written Report 
