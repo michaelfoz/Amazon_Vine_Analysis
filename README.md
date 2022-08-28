@@ -1,6 +1,6 @@
 # Amazon_Vine_Analysis
 
-# Deliverable 1
+# Deliverable 1: Perform ETL on Amazon Product Reviews
 
 Per Deliverable 1 instructions:
 
@@ -57,5 +57,5 @@ config = {"user":"postgres",
 
 ![image](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Deliverable%201%20-%20pgAdmin%20screenshots/vine_table.png)
 
-# Deliverable 2
+# Deliverable 2: Determine Bias of Vine Reviews 
 # Deliverable 3
