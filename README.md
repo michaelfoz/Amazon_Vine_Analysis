@@ -45,6 +45,8 @@ config = {"user":"postgres",
 
 ![image](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL%20-%2018-minute-execution-time.png)
 
+(Self-note: a very lengthy process--total of 18 minutes for just this one table-.)
+
 ![image](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Deliverable%201%20-%20pgAdmin%20screenshots/review_id_table.png)
 
 ![image](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Deliverable%201%20-%20pgAdmin%20screenshots/products_table.png)
