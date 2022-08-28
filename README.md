@@ -6,7 +6,7 @@ Per Deliverable 1 instructions:
 
 (1) Create a database in the [AWS RDS](https://aws.amazon.com/) RDS console (this will later be linked to my local machine's PostgreSQL/pgAdmin via code in [Amazon_Reviews_ETL.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)).
 
-(2) Open pgAdmin and Use the provided [challenge_schema.sql](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/challenge_schema.sql) to create the following tables: 'customer table', 'products_table', 'review_id_table', and 'vine_table'.
+(2) Open pgAdmin and use the provided [challenge_schema.sql](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/challenge_schema.sql) to create the following tables: 'customer table', 'products_table', 'review_id_table', and 'vine_table'.
 
 ![image](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Deliverable%201%20-%20pgAdmin%20screenshots/challenge-schema-tables.png)
 
