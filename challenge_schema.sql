@@ -2,7 +2,7 @@
 -- This challenge_schema.sql file downloaded per Deliverable 1 instructions (step 4)
 -- Per Challenge instructions, use this file to run a new query in pgAdmin(PostgreSQL)
 -- to create the following tables: 
---(1) customer table, (2) products_table, (3) review_id_table, (4) vine table [all tables below]
+--(1) customer table, (2) products_table, (3) review_id_table, (4) vine_table [all tables below]
 
 CREATE TABLE review_id_table (
   review_id TEXT PRIMARY KEY NOT NULL,
