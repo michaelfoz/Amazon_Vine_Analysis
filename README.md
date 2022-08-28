@@ -4,15 +4,17 @@
 
 Per Deliverable 1 instructions:
 
+(1) Open pgAdmin and Use the provided [challenge_schema.sql](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/challenge_schema.sql) to create the following tables: 'customer table', 'products_table', 'review_id_table', and 'vine_table'.
+
 ![image](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Deliverable%201%20-%20pgAdmin%20screenshots/challenge-schema-tables.png)
 
-(1) Select a dataset from: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
+(2) Select a dataset from: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt. (The dataset I chose was for "shoes" reviews: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Shoes_v1_00.tsv.gz.)
 
-(I chose shoes: (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Shoes_v1_00.tsv.gz))
+(3) Open Google Colab, and open the provided [Amazon_Reviews_ETL_starter_code.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL_starter_code.ipynb)
 
-(2) Open Google Colab, and open the provided [Amazon_Reviews_ETL_starter_code.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL_starter_code.ipynb)
+(4) Rename the starter code to [Amazon_Reviews_ETL.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)
 
-(3) Rename the starter code to [Amazon_Reviews_ETL.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)
+(5) Follow the prompts within the starter code to complete an ETL (extract/transform/load) for the "shoes" reviews dataset chosen. The process entails starting a Spark session, reading in the "shoes" reviews dataset (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Shoes_v1_00.tsv.gz), creating/manipulating dataframes from the dataset, then uploading the data into the pgAdmin tables created in previous steps.
 
 ```
 # Configure settings for RDS
@@ -37,7 +39,6 @@ config = {"user":"postgres",
 # vine_df.write.jdbc(url=jdbc_url, table='vine_table', mode=mode, properties=config)
 
 ```
-(4) Follow the prompts within the starter code to complete an ETL (extract/transform/load) for the dataset chosen. The process entails starting a Spark session, reading in the dataset (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Shoes_v1_00.tsv.gz), creating dataframes from the dataset.
 
 ![image](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL%20-%2018-minute-execution-time.png)
 
