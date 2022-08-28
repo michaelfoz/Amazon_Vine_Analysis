@@ -2,7 +2,9 @@
 
 # Deliverable 1
 
-Per Deliverable 1 instructions, select a dataset from https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt.
+Per Deliverable 1 instructions:
+(1) select a dataset from https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt.
+(2) open Google Colab, and open the provided [Amazon_Reviews_ETL_starter_code.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL_starter_code.ipynb)
 
 ![image](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL%20-%2018-minute-execution-time.png)
 
