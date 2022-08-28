@@ -4,6 +4,8 @@
 
 Per Deliverable 1 instructions:
 
+![image](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Deliverable%201%20-%20pgAdmin%20screenshots/4-tables-from-challenge-schema.sql)
+
 (1) Select a dataset from: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 
 (I chose shoes: (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Shoes_v1_00.tsv.gz))
