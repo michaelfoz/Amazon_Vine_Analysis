@@ -47,7 +47,7 @@ config = {"user":"postgres",
 
 (Self-note: a very lengthy process--total of 18 minutes for just this one table.)
 
-### Below are screenshots of queries performed in pgAdmin to confirm that the data was imported to the earlier-created tables: 'customer table', 'products_table', 'review_id_table', and 'vine_table'.
+### Below are screenshots of queries performed in pgAdmin to confirm that the data was imported from the Google Colab Spark session ([Amazon_Reviews_ETL.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)) to the earlier-created tables in pgAdmin: 'customer table', 'products_table', 'review_id_table', and 'vine_table'.
 
 ![image](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Deliverable%201%20-%20pgAdmin%20screenshots/review_id_table.png)
 
