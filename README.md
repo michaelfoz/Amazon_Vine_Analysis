@@ -14,7 +14,7 @@ Per Deliverable 1 instructions:
 
 (4) Rename the starter code to [Amazon_Reviews_ETL.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)
 
-(5) Follow the prompts within the starter code to complete an ETL (extract/transform/load) for the "shoes" reviews dataset chosen. The process entails starting a Spark session, reading in the "shoes" reviews dataset (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Shoes_v1_00.tsv.gz), creating/manipulating dataframes from the dataset, then uploading the data into the pgAdmin tables created in previous steps.
+(5) Follow the prompts that were provided within the [Amazon_Reviews_ETL_starter_code.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL_starter_code.ipynb) (which is now [Amazon_Reviews_ETL.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)) to complete an ETL (extract/transform/load) for the "shoes" reviews dataset chosen. The process entails starting a Spark session, reading in the "shoes" reviews dataset (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Shoes_v1_00.tsv.gz), creating/manipulating dataframes from the dataset, then uploading the data into the pgAdmin tables that were earlier created using the [challenge_schema.sql](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/challenge_schema.sql).
 
 ```
 # Configure settings for RDS
