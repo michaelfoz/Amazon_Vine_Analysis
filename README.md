@@ -73,3 +73,7 @@ As seen in [Vine_Review_Analysis.ipynb](https://github.com/michaelfoz/Amazon_Vin
 - What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
 As seen in [Vine_Review_Analysis.ipynb](https://github.com/michaelfoz/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) (at the bottom-most section of the file), the percentage of five-star reviews among Vine reviews is 59.1%. In contrast, the percentage of five-star reviews among non-Vine reviews is 53.6%. 
+
+### Conclusion:
+
+Given that approximately 60% (rounded up to the nearets tenth) of the total reviews for paid Vine members were 5-star reviews, while the total reviews for unpaid non-Vine members that were 5-star reviews was approximately 54% (rounded up to the nearest tenth), it can be declared that there is a bias when the reviews are made. In other words, there is a greater number of reviews that are 5-stars made by paid Vine members vs. the number of 5-star reviews made by the unpaid non-Vine members.
